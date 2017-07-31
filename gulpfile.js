@@ -4,14 +4,16 @@ var jade = require('gulp-jade');
 
 
 gulp.task('sass', function () {
-  return gulp.src('./src/**/*.scss')
+  return gulp.src('./src/*.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(gulp.dest('./css'));
+    .pipe(gulp.dest('./dist/assets/css'));
 });
 
 gulp.task('sass:watch', function () {
-  gulp.watch('./src/**/*.scss', ['sass']);
+  gulp.watch('./src/*.scss', ['sass']);
 });
+
+
 
 gulp.task('jade', function(){
     gulp.src('./src/*.jade')
