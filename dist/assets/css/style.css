@@ -90,3 +90,92 @@
 
 .offset-12 {
   margin-left: 100%; }
+
+body {
+  height: 50px;
+  font-family: 'Roboto', sans-serif;
+  color: #727272; }
+
+.menu_principal {
+  height: 60px;
+  color: #848484;
+  vertical-align: middle;
+  margin-right: 15px;
+  margin-top: -300px;
+  text-decoration: none; }
+
+.menu_principal:hover {
+  color: #00aeef; }
+
+#about {
+  background-image: url(../img/404-bg.png);
+  background-size: contain;
+  height: 110px;
+  color: #848484;
+  margin-top: 50px; }
+
+h1 {
+  font-size: 3vw;
+  font-weight: bold; }
+
+#montana {
+  background-image: url(../img/home/slider-bg.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  height: 450px;
+  margin-top: 200px; }
+  #montana h1 {
+    margin: 20px 0px; }
+  #montana p {
+    font-size: 1.4vw;
+    margin: 40px 0px;
+    text-align: justify; }
+
+#signup {
+  width: 150px;
+  border: solid 3px #00aeef;
+  background-color: white;
+  color: #00aeef;
+  height: 100px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  margin-top: 60px; }
+
+#signup:hover {
+  color: #727272;
+  border-color: #727272; }
+
+#slide-fdo {
+  height: 350px;
+  background-image: url(../img/home/slider/hill.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom; }
+
+#pajaros-izq {
+  height: 80px;
+  width: auto;
+  background-image: url(../img/home/slider/birds1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 100px 0px 0px 30px; }
+
+#casa {
+  height: 180px;
+  width: auto;
+  background-image: url(../img/home/slider/house.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 8px 0px 0px 110px; }
+
+#pajaros-der {
+  height: 80px;
+  width: auto;
+  background-image: url(../img/home/slider/birds2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: -280px 0px 0px 450px; }

@@ -1,11 +1,49 @@
 doctype html
 html(lang="es")
-  head
-    meta(charset="UTF-8")
-    meta(name="viewport" content="width=device-width, initial-scale=1.0")
-    link(type="text/css" href="css/style.css")
-    title Triangle
-  body.container
-    header
-      nav.row
-    script(type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		link(type="text/css" rel="stylesheet" href="assets/css/style.css")
+		link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet")
+		title Triangle
+	body.container
+		header
+			nav.row
+				div(class="col-3 offset-9" id="redes") 
+					img(src="assets/img/facebook-logo.png" class="offset-1")
+					img(src="assets/img/twitter.png" class="offset-1")
+					img(src="assets/img/google-plus-logo.png" class="offset-1")
+					img(src="assets/img/linkedin-letters.png" class="offset-1")
+				div(class="col-10 offset-1")
+					img(src="assets/img/logo.png")
+					a(href="index.html" class="menu_principal offset-4") HOME
+					a(href="index.html" class="menu_principal") PAGES v
+					a(href="index.html" class="menu_principal") BLOG v
+					a(href="index.html" class="menu_principal") PORTFOLIO v
+					a(href="index.html" class="menu_principal") SHORTCODES
+					img(src="assets/img/buscar.png")
+				section#montana
+					div.col-4.offset-1
+						h1 We Are Creative Nerds
+						p Boudin doner frankfuter pig. Cow shank bresaola pork loin trip-trip tongue vension pork belly meatloaf short loin landjaeger biltong beef ribs shankle chicken audouille.
+						a(href="#")#signup SIGN UP
+					div#slide-fdo.col-6
+						div#pajaros-izq
+						div#casa
+							img(src="assets/img/home/slider/sun.png" class="offset-1")  
+						div#pajaros-der
+				section#articulos
+	mixin tema(titulo, parrafo)
+		div.col-3.offset-1.center
+			h3.tema(titulo) 
+			p.tema(parrafo) 
+				  +tema('Titulo uno','parrafo uno')
+				  +tema('Titulo dos','parrafo dos')
+				  +tema('Titulo tres','parrafo tres')
+
+
+
+
+
+
+		script(type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js")

@@ -1,1 +1,103 @@
 @import "grid";
+$color-blue:#00aeef;
+$color-gris:#727272;
+$h1-size:3vw;
+$h2-size:2.8vw;
+$h3-size:2.6vw;
+$h4-size:2.4vw;
+$h5-size:2.2vw;
+$h6-size:2vw;
+
+
+body{
+  height: 50px;
+  font-family: 'Roboto', sans-serif;
+  color:$color-gris;
+}
+.menu_principal{
+  height: 60px;
+  color:#848484;
+  vertical-align: middle;
+  margin-right:15px;
+  margin-top:-300px;
+  text-decoration:none;
+}
+.menu_principal:hover{
+  color:#00aeef;
+}
+#about{
+  background-image:url(../img/404-bg.png);
+  background-size: contain;
+  height: 110px;
+  color:#848484;
+  margin-top:50px;
+}
+
+h1{
+  font-size: $h1-size;
+  font-weight: bold;
+}
+#montana{
+  background-image:url(../img/home/slider-bg.png);
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position: bottom;
+  height: 450px;
+  margin-top: 200px;
+  h1{
+    margin:20px 0px;
+  }
+  p{
+    font-size: 1.4vw;
+    margin:40px 0px;
+    text-align: justify;
+  }
+}
+#signup{
+  width: 150px;
+  border:solid 3px $color-blue;
+  background-color: white;
+  color:$color-blue;
+  height:100px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  padding:10px;
+  margin-top:60px;
+}
+#signup:hover{
+    color:$color-gris;
+    border-color:$color-gris;
+  }
+#slide-fdo{
+  height: 350px;
+  background-image: url(../img/home/slider/hill.png);
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+#pajaros-izq{
+  height: 80px;
+  width:auto;
+  background-image: url(../img/home/slider/birds1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin:100px 0px 0px 30px;
+}
+#casa{
+  height: 180px;
+  width:auto;
+  background-image: url(../img/home/slider/house.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin:8px 0px 0px 110px;
+}
+#pajaros-der{
+  height: 80px;
+  width:auto;
+  background-image: url(../img/home/slider/birds2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin:-280px 0px 0px 450px;
+}
