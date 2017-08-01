@@ -32,18 +32,14 @@ html(lang="es")
 						div#casa
 							img(src="assets/img/home/slider/sun.png" class="offset-1")  
 						div#pajaros-der
-				section#articulos
-	mixin tema(titulo, parrafo)
-		div.col-3.offset-1.center
-			h3.tema(titulo) 
-			p.tema(parrafo) 
-				  +tema('Titulo uno','parrafo uno')
-				  +tema('Titulo dos','parrafo dos')
-				  +tema('Titulo tres','parrafo tres')
+				section.row
+					div#articulos.col-10.offset-1
 
 
 
 
 
 
+		script(type="text/javascript" src="assets/js/plantilla_index.js")
 		script(type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js")
+		script(type="text/javascript" src="assets/js/compilar_index.js")
