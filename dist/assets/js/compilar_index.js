@@ -1,4 +1,4 @@
-var template = Handlebars.tamplates['index'];
+var template = Handlebars.compile['index'];
 var data = {
 	articulos: [
     {

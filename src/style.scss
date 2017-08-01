@@ -36,6 +36,12 @@ body{
 h1{
   font-size: $h1-size;
   font-weight: bold;
+  margin:20px 0px;
+}
+h3{
+  font-size: $h3-size;
+  font-weight: bold;
+  margin:20px 0px;
 }
 #montana{
   background-image:url(../img/home/slider-bg.png);
@@ -44,9 +50,6 @@ h1{
   background-position: bottom;
   height: 350px;
   margin-top: 200px;
-  h1{
-    margin:20px 0px;
-  }
   p{
     font-size: 1.4vw;
     margin:40px 0px;
@@ -100,4 +103,21 @@ h1{
   background-size: contain;
   background-repeat: no-repeat;
   margin:-280px 0px 0px 450px;
+}
+.center{
+  text-align: center;
+  align-items: center;
+  align-content: center;
+}
+#handle{
+
+  p{
+      font-size: 1.4vw;
+      margin:40px 0px;
+    }
+}
+.fondo-triangulos{
+  height: 150px;
+  background-image:url(../img/404-bg.png);
+  background-size: contain;
 }
