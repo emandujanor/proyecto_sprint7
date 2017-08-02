@@ -1,7 +1,8 @@
 @import "grid";
 $color-blue:#00aeef;
 $color-gris:#727272;
-$color-gris-claro:#d6d6d6;
+$color-gris-claro:#dfdfdf;
+$color-rojo: red;
 $h1-size:3vw;
 $h2-size:2.8vw;
 $h3-size:2.6vw;
@@ -169,4 +170,77 @@ footer{
   background-size: cover;
   background-repeat: no-repeat;
   height: 660px;
+}
+.img-cuadro-footer{
+  float: left;
+  margin-right: 15px;
+}
+
+.text-rojo-gde{
+  font-size: 4vw;
+  color: $color-rojo;
+  line-height: 0.01vw;
+}
+.text-rojo-autor{
+  margin-top: 10px;
+  font-size: 1.5vw;
+  color: $color-rojo;
+  font-weight:lighter;
+}
+.text-rojo-med{
+  color: $color-rojo;
+}
+#name{
+  width: 80%;
+  border-color: #eaeaea;
+  border:solid;
+  border-width: thin;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+#mail{
+  width: 80%;
+  border-color: #eaeaea;
+  border:solid;
+  border-width: thin;
+  padding: 15px;
+  margin-bottom: 30px;
+}
+#btn-enviar{
+  width: 80%;
+  background-color: $color-blue;
+  color:white;
+  height:auto;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  padding:10px;
+}
+#btn-enviar:hover{
+  width: 80%;
+  background-color: $color-gris-claro;
+  color:$color-blue;
+  height:auto;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  padding:10px;
+}
+
+#textarea{
+  width: 80%;
+  border-color: #eaeaea;
+  border:solid;
+  border-width: thin;
+  padding: 15px;
+  margin-bottom: 30px;
+
+}
+.text-white{
+  color:white;
+}
+.text-color-gris{
+  color:$color-gris
 }

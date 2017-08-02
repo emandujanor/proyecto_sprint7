@@ -107,7 +107,7 @@ body {
 
 .menu_principal:hover {
   color: #00aeef;
-  background-color: #d6d6d6; }
+  background-color: #dfdfdf; }
 
 #about {
   background-image: url(../img/404-bg.png);
@@ -240,3 +240,73 @@ footer {
   background-size: cover;
   background-repeat: no-repeat;
   height: 660px; }
+
+.img-cuadro-footer {
+  float: left;
+  margin-right: 15px; }
+
+.text-rojo-gde {
+  font-size: 4vw;
+  color: red;
+  line-height: 0.01vw; }
+
+.text-rojo-autor {
+  margin-top: 10px;
+  font-size: 1.5vw;
+  color: red;
+  font-weight: lighter; }
+
+.text-rojo-med {
+  color: red; }
+
+#name {
+  width: 80%;
+  border-color: #eaeaea;
+  border: solid;
+  border-width: thin;
+  padding: 15px;
+  margin-bottom: 30px; }
+
+#mail {
+  width: 80%;
+  border-color: #eaeaea;
+  border: solid;
+  border-width: thin;
+  padding: 15px;
+  margin-bottom: 30px; }
+
+#btn-enviar {
+  width: 80%;
+  background-color: #00aeef;
+  color: white;
+  height: auto;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px; }
+
+#btn-enviar:hover {
+  width: 80%;
+  background-color: #dfdfdf;
+  color: #00aeef;
+  height: auto;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px; }
+
+#textarea {
+  width: 80%;
+  border-color: #eaeaea;
+  border: solid;
+  border-width: thin;
+  padding: 15px;
+  margin-bottom: 30px; }
+
+.text-white {
+  color: white; }
+
+.text-color-gris {
+  color: #727272; }
