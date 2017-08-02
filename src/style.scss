@@ -1,12 +1,18 @@
 @import "grid";
 $color-blue:#00aeef;
 $color-gris:#727272;
+$color-gris-claro:#d6d6d6;
 $h1-size:3vw;
 $h2-size:2.8vw;
 $h3-size:2.6vw;
 $h4-size:2.4vw;
 $h5-size:2.2vw;
 $h6-size:2vw;
+$top-50:50px;
+$top-80:80px;
+$top-160:160px;
+$top-200:200px;
+$right:right;
 
 
 body{
@@ -15,15 +21,17 @@ body{
   color:$color-gris;
 }
 .menu_principal{
-  height: 60px;
+  height: 120px;
   color:#848484;
   vertical-align: middle;
   margin-right:15px;
   margin-top:-300px;
   text-decoration:none;
+  padding:20px 10px;
 }
 .menu_principal:hover{
   color:#00aeef;
+  background-color: $color-gris-claro;
 }
 #about{
   background-image:url(../img/404-bg.png);
@@ -120,4 +128,45 @@ h3{
   height: 150px;
   background-image:url(../img/404-bg.png);
   background-size: contain;
+}
+#take-bton{
+  width: 10px;
+  border:solid 3px $color-blue;
+  background-color: white;
+  color:$color-blue;
+  height:100px;
+  border-radius: 10px;
+  text-decoration: none;
+  text-align: middle;
+  padding:10px;
+  margin-top:100px;
+}
+#take-bton:hover{
+  color:$color-gris;
+  border-color:$color-gris;
+}
+#bicicleta{
+  margin-top: -10px;
+}
+.espacio-80{
+  margin-top:$top-80;
+  clear:both;
+}
+.right{
+  align-items:$right;
+  align-content: $right;
+  text-align: $right;
+}
+.espacio-160{
+  margin-top:$top-160;
+  clear:both;
+}
+#image2{
+  margin:80px 0px 0px 50px;
+}
+footer{
+  background-image: url(../img/home/footer.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 660px;
 }
