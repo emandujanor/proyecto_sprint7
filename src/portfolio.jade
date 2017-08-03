@@ -19,52 +19,53 @@ html(lang="en")
 					a(href="index.html" class="menu_principal offset-3") HOME
 					a(href="pages.html" class="menu_principal") PAGES v
 					a(href="index.html" class="menu_principal") BLOG v
-					a(href="portfolio.html" class="menu_principal") PORTFOLIO v
+					a(href="index.html" class="menu_principal") PORTFOLIO v
 					a(href="index.html" class="menu_principal") SHORTCODES
 					img(src="assets/img/buscar.png")
 		section#about.espacio-40
-			h1.offset-1 About Us
-			p.offset-1 Why our Clients love to work with us.
+			h1.offset-1 Portfolio
+			p.offset-1 Be creative
 		section.row.espacio-80
-			div.col-4.offset-1
-				img(src="assets/img/home/image1.png" class="offset-1")
-			div.col-5.offset-1
-				p.espacio-80 Shoulder bresaola sausage consequat groun round duis excepteur exercitation landjaeger sunt Suis Officia sed frankfurter dolore pastramiterderloin.
-				p When an unknow printer took a galley of type and scrambled it to make a type specimen book, it has survived not only five centuries.
-		section.row.espacio-80
-			.col-1
-			mixin prueba (numero, titulo, texto)
-				.col-3.center
-					img(src="assets/img/services/#{numero}")
-					h3.prueba-padding #{titulo}
-					p.prueba-padding  #{texto}
-			+prueba("1.png", "Incredibly Responsive", "Ground round tenderloin flank shank ribeye. Hamkevin meatbooll swine. Cow shankle beef sirloin chiken ground round.")
-			+prueba("2.png", "Superior Typography", "Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.")
-			+prueba("3.png", "swift Page Builder", "Venison tongue, salami corned beef ball tip meatroaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin snankle")
-		section.row.fondo-triangulos.espacio-80
-			div.col-5.offset-1
-				h1 Triangle Corporate Template
-				p A responsive, retina ready & wida multipurpose template.
-			div.col-5.offset-1
-				a(href="#")#take-bton TAKE THE TOUR
-				img( id="bicicleta" src="assets/img/home/tour-icon2.png" class="offset-1") 
-		section.row.center.espacio-80
-			h3 Meet the Team
-			p Sed do eiusmod tempor incididunt,<br>Ut labore et dolore magna aliqua
+			img( id="bicicleta" src="assets/img/portfolio/icon.png" class="offset-3")
+			p.submenu-portafolio All
+			p.submenu-portafolio Branded
+			p.submenu-portafolio Design
+			p.submenu-portafolio Folio
+			p.submenu-portafolio Logos
+			p.submenu-portafolio Mobile
+			p.submenu-portafolio Mockup	
 		section.row.espacio-80
 			div.col-1
-			mixin cuadro (numero, titulo, texto)
-				div.columnas-about
-					img.img-100(src="assets/img/aboutus/#{numero}")
-					h3.prueba-padding #{titulo}
-					p.prueba-padding  #{texto}
-			+cuadro("4.jpg", "John Doe", "CEO & Developer")
-			+cuadro("3.jpg", "John Doe", "CEO & Developer")
-			+cuadro("2.jpg", "John Doe", "CEO & Developer")
-			+cuadro("1.jpg", "John Doe", "CEO & Developer")
+			mixin portafolioImg (numero, titulo, texto)
+				div.columnas-portfolio
+					img.img-100(src="assets/img/portfolio/#{numero}")
+					p.portafolioImg #{titulo}		
+			+portafolioImg("1.jpg", "Sailing Vivamus")
+			+portafolioImg("2.jpg", "Sailing Vivamus")
+			+portafolioImg("3.jpg", "Sailing Vivamus")
+			+portafolioImg("4.jpg", "Sailing Vivamus")
+			.row
+				div.col-1
+				+portafolioImg("5.jpg", "Sailing Vivamus")
+				+portafolioImg("6.jpg", "Sailing Vivamus")
+				+portafolioImg("7.jpg", "Sailing Vivamus")
+				+portafolioImg("8.jpg", "Sailing Vivamus")
+			.row
+				div.col-1
+				+portafolioImg("9.jpg", "Sailing Vivamus")
+				+portafolioImg("10.jpg", "Sailing Vivamus")
+				+portafolioImg("11.jpg", "Sailing Vivamus")
+				+portafolioImg("12.jpg", "Sailing Vivamus")
+			.row
+				div.col-1
+				+portafolioImg("13.jpg", "Sailing Vivamus")
+				+portafolioImg("14.jpg", "Sailing Vivamus")
+				+portafolioImg("15.jpg", "Sailing Vivamus")
+				+portafolioImg("16.jpg", "Sailing Vivamus")
+			
 		section.row.center.espacio-80
 			img(src="assets/img/home/under.png" class="espacio-160")
-		footer
+		footer.espacio-80
 			div.row
 				h3.col-2.offset-1 Testimonial
 				h3.col-3.offset-2 Contacts

@@ -131,16 +131,17 @@ h3{
   background-size: contain;
 }
 #take-bton{
-  width: 10px;
+  display: inline-block;
+  width: 150px;
   border:solid 3px $color-blue;
   background-color: white;
   color:$color-blue;
-  height:100px;
+  height:80px;
   border-radius: 10px;
   text-decoration: none;
   text-align: middle;
   padding:10px;
-  margin-top:100px;
+  margin-top:20px;
 }
 #take-bton:hover{
   color:$color-gris;
@@ -251,4 +252,28 @@ footer{
 }
 .text-color-gris{
   color:$color-gris
+}
+.prueba-padding{
+  padding: 0px 40px;
+}
+.img-100{
+  width: 100%;
+  height: auto;
+}
+.columnas-about{
+  width: 15%;
+  height: auto;
+  margin: 0px 25px;
+  display: inline-block;
+}
+.columnas-portfolio{
+  width: 15%;
+  height: auto;
+  margin: 10px 30px;
+  display: inline-block;
+}
+.submenu-portafolio{
+  font-size: 1.2vw;
+  padding: 5px 20px;
+  display: inline-block;
 }
