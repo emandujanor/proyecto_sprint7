@@ -1,0 +1,68 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		link(type="text/css" rel="stylesheet" href="assets/css/style.css")
+		link(href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet")
+		title Triangle
+	body.container
+		header
+			nav.row
+				div(class="col-3 offset-9" id="redes") 
+					img(src="assets/img/facebook-logo.png" class="offset-1")
+					img(src="assets/img/twitter.png" class="offset-1")
+					img(src="assets/img/google-plus-logo.png" class="offset-1")
+					img(src="assets/img/linkedin-letters.png" class="offset-1")
+				div(class="col-10 offset-1")
+					img(src="assets/img/logo.png")
+					a(href="index.html" class="menu_principal offset-3") HOME
+					a(href="pages.html" class="menu_principal") PAGES v
+					a(href="index.html" class="menu_principal") BLOG v
+					a(href="index.html" class="menu_principal") PORTFOLIO v
+					a(href="index.html" class="menu_principal") SHORTCODES
+					img(src="assets/img/buscar.png")
+		section#about.espacio-40
+			h1.offset-1 About Us
+			p.offset-1 Why our Clients love to work with us.
+		section.row.espacio-80
+			div.col-4.offset-1
+				img(src="assets/img/home/image1.png" class="offset-1")
+			div.col-5.offset-1
+				p.espacio-80 Shoulder bresaola sausage consequat groun round duis excepteur exercitation landjaeger sunt Suis Officia sed frankfurter dolore pastramiterderloin.
+				p When an unknow printer took a galley of type and scrambled it to make a type specimen book, it has survived not only five centuries.
+		section.row.espacio-200		
+			
+		footer.espacio-200
+			div.row
+				h3.col-2.offset-1 Testimonial
+				h3.col-3.offset-2 Contacts
+				h3.col-4 Send a message
+			div.row
+				div.col-4.offset-1
+					div.row
+						img(src="assets/img/home/profile1.png" class="espacio-40 img-cuadro-footer")
+						div.col-8
+							p<span class="text-rojo-gde"><sub> "</sub></span>Nisi commodo bresaola, <br>leverkas venison eiusmod bacon<br> occaecatlavore tail.<span class="text-rojo-gde"><sub> "</sub></span>
+							p.text-rojo-autor - Jhon Kalis
+					div.row.espacio-80
+						img(src="assets/img/home/profile2.png" class="espacio-40 img-cuadro-footer")
+						div.col-8
+							p<span class="text-rojo-gde"><sub> "</sub></span>Capicola nisi flank sed <br> minim sunt aliqua rump<br> pancetta leberkas<br> venison eiusmod.<span class="text-rojo-gde"><sub> "</sub></span>
+							P.text-rojo-autor - Abraham Josef
+				div.col-3
+						div.col-10
+							p E&#45;mail:<span class="text-rojo-med">email@email.com</span><br>Phone: +1 (123) 456 7890<br>Fax: +1 (123) 456 7891
+							h3.espacio-80 Address
+							p Unit C2, St.Vincent's Trading Est,<br> Feeder Road,<br> Bistro, BS2 0UY<br> United Kingdom
+				div.col-4
+						form
+							input(type="text" placeholder="Name" id="name" name="nombre")
+							input(type="text" placeholder="Email" id="mail" name="email")
+							textarea(name="coment" rows="6" cols="45" placeholder="Your text here" id="textarea")
+							button(type="submit" id="btn-enviar") SUBMIT
+			div.row.center.espacio-80
+				p.text-white &#169; Your Company 2016.All Rights Reserved.<br> Crafted by <span class="text-color-gris">Allie</span>
+		script(type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js")
+		script(type="text/javascript" src="templates.js")
+		script(type="text/javascript" src="/assets/js/compilar_index.js")
